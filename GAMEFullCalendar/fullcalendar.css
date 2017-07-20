@@ -1416,7 +1416,7 @@ be a descendant of the grid when it is being dragged.
 body {
 	margin: 0;
 	padding-top: 45px;
-	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-family: 'Fantasy';
 	font-size: 14px;
 	background-color:#E8D6D2;
 }
