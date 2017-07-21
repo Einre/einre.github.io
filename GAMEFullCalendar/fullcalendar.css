@@ -1418,7 +1418,6 @@ body {
 	padding-top: 45px;
 	font-family: 'Fantasy';
 	font-size: 14px;
-	background-color:#E8D6D2;
 }
 
 #loading {
@@ -1437,7 +1436,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #bab7b6;
     position: fixed;
     top: 0;
     width: 100%;
@@ -1445,7 +1444,7 @@ body {
 
 .nav-li {
     float: left;
-	border-right: 1px solid #bbb;
+	border-right: 1px solid #9b817e;
 }
 
 .nav-li:last-child {
@@ -1461,9 +1460,9 @@ body {
 }
 
 .nav-li a:hover:not(.active) {
-    background-color: #d69f93;
+    background-color: #e02828;
 }
 
 .nav-active {
-    background-color: #e02828;
+    background-color: #800008;
 }
