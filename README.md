@@ -1,6 +1,6 @@
 # A Guild Wars 2 guild website for The Sound of Revenge [GAME].
 
-https://cam-y.github.io/einre.github.io/GAME
+https://einre.github.io/GAME.html
 
 Designed by Einre and CAM-Y.
 
