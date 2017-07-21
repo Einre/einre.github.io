@@ -21,3 +21,20 @@
 		<h2>Site Under Construction</h2>
 	</center>
 </body>
+<div align="right"> <!-- To display Discord Population (Online only) -->
+    <script type="text/javascript" src='GAME Discord Widget/discord-widget.min.js'></script>
+    <script type="text/javascript">
+        discordWidget.init({
+            serverId: '305185910876536832',
+            title: 'See how active our guild is :D',
+            join: true,
+            alphabetical: false,
+            theme: 'light',
+            hideChannels: ['General Chit Chat Here ;)', 'Cat litter box', 'Cooking', 'Counseling', 'Dungeons 1', 'Dungeons 2', 'Dungeons 3', 'Fractals 1', 'Fractals 2', 'Fractals 3', 'Guild Missions', 'PvP 1', 'PvP 2', 'PvP 3', 'Raid Group', 'Story Time', 'World Boss Train', 'WvW', 'Music', 'Misc', 'AFK'],
+            showAllUsers: true,
+            allUsersDefaultState: true
+        });
+        discordWidget.render();
+    </script>
+    <div class="discord-widget" style="width: 375px;"></div>
+</div>
