@@ -1460,9 +1460,16 @@ body {
 }
 
 .nav-li a:hover:not(.active) {
-    background-color: #e02828;
+    background-color: #800008;
 }
 
 .nav-active {
-    background-color: #800008;
+    background-color: #540409;
+}
+
+/* Camy Added */
+
+#content {
+    float: left;
+    height: 100%;
 }

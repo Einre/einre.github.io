@@ -16,25 +16,28 @@
 	</ul>
 </nav>
 <body>
-	<center>
-		<h1>[GAME] The Sound of Revenge</h1>
-		<h2>Site Under Construction</h2>
-	</center>
+	<div id="content" style="width: 750px;">
+		<div id="placeholder" style="float: right; text-align: center;">
+			<h1>[GAME] The Sound of Revenge</h1>
+			<h2>Site Under Construction</h2>
+			<img src='GAME Media/work-in-progress.png'>
+		</div>
+	</div>
+	<div id="discord" style="float: right;"> <!-- To display Discord Population (Online only) -->
+        <script type="text/javascript" src='GAME Discord Widget/discord-widget.min.js'></script>
+        <script type="text/javascript">
+            discordWidget.init({
+                serverId: '305185910876536832',
+                title: 'Discord Server Guildies&apos; Liveliness Display',
+                join: true,
+                alphabetical: false,
+                theme: 'light',
+                hideChannels: ['General Chit Chat Here ;)', 'Cat litter box', 'Cooking', 'Counseling', 'Dungeons 1', 'Dungeons 2', 'Dungeons 3', 'Fractals 1', 'Fractals 2', 'Fractals 3', 'Guild Missions', 'PvP 1', 'PvP 2', 'PvP 3', 'Raid Group', 'Story Time', 'World Boss Train', 'WvW', 'Music', 'Misc', 'AFK'],
+                showAllUsers: true,
+                allUsersDefaultState: true
+            });
+            discordWidget.render();
+        </script>
+        <div class="discord-widget" style="width: 365px;"></div>
+    </div>
 </body>
-<div align="right"> <!-- To display Discord Population (Online only) -->
-    <script type="text/javascript" src='GAME Discord Widget/discord-widget.min.js'></script>
-    <script type="text/javascript">
-        discordWidget.init({
-            serverId: '305185910876536832',
-            title: 'Discord Server Guildies&apos; Liveliness Display',
-            join: true,
-            alphabetical: false,
-            theme: 'light',
-            hideChannels: ['General Chit Chat Here ;)', 'Cat litter box', 'Cooking', 'Counseling', 'Dungeons 1', 'Dungeons 2', 'Dungeons 3', 'Fractals 1', 'Fractals 2', 'Fractals 3', 'Guild Missions', 'PvP 1', 'PvP 2', 'PvP 3', 'Raid Group', 'Story Time', 'World Boss Train', 'WvW', 'Music', 'Misc', 'AFK'],
-            showAllUsers: true,
-            allUsersDefaultState: true
-        });
-        discordWidget.render();
-    </script>
-    <div class="discord-widget" style="width: 365px;"></div>
-</div>
