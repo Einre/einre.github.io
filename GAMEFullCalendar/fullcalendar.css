@@ -1441,6 +1441,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+	z-index: 10000; /* making sure the menu bar is always on top when scrolling */
 }
 
 .nav-li {
@@ -1485,8 +1486,25 @@ td img {
 
 /* Camy Added */
 
+div {
+    display: block;
+}
+
+#main {
+    height: 795px;
+}
+
 #content {
     float: left;
     height: 100%;
 }
 
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
