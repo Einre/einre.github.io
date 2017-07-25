@@ -1503,8 +1503,14 @@ div {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+	position: relative;
+    height: 25px;
+    clear: both;
 }
 
-.copyright {
+#copyright {
+	height: 50px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
