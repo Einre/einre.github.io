@@ -1486,7 +1486,7 @@ td img {
 
 /* Camy Added */
 
-div {
+div { /* Fix me so all "div" aren't subjected to block display. Thanks - ERNIE */
     display: block;
 }
 
