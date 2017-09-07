@@ -50,3 +50,9 @@ footer {
     width: 100%;
     overflow:hidden;
 }
+
+.news {
+    border: 2px outset;
+    width: 750px;
+    padding: 10px;
+}
