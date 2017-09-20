@@ -53,6 +53,12 @@ footer {
 
 .news {
     border: 2px outset;
+    width: 400px;
+    padding: 10px;
+}
+
+.week {
+    border: 2px outset;
     width: 965px;
     padding: 10px;
 }
