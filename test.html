@@ -30,49 +30,6 @@
         <p>This is a placeholder for your website content. Replace this text with your own content.</p>
         <br>
         <br>
-        <div id="weather-box">
-            <h1>Weather Information</h1>
-            <div id="weather-content"></div>
     </div>
-    <script>
-        // Replace 'YOUR_ZIP_CODE' with the desired zip code
-        const zipCode = '04086';
-    
-        // Function to fetch weather data from api.weather.gov
-        function fetchWeatherData() {
-            const apiUrl = `https://api.weather.gov/points/${zipCode}/forecast`;
-    
-            fetch(apiUrl)
-                .then(response => response.json())
-                .then(data => {
-                    // Get current weather, 3-day forecast, and sunrise/sunset
-                    const currentWeather = data.properties.periods[0];
-                    const threeDayForecast = data.properties.periods.slice(1, 4);
-                    const sunriseSunset = data.properties.sunriseSunset.data;
-    
-                    // Display the weather information in the HTML
-                    const weatherContent = document.getElementById('weather-content');
-                    weatherContent.innerHTML = `
-                        <h2>Current Weather</h2>
-                        <p>${currentWeather.detailedForecast}</p>
-    
-                        <h2>3-Day Forecast</h2>
-                        <ul>
-                            ${threeDayForecast.map(forecast => `<li>${forecast.name}: ${forecast.shortForecast}</li>`).join('')}
-                        </ul>
-    
-                        <h2>Sunrise/Sunset</h2>
-                        <p>Sunrise: ${sunriseSunset[0].value}</p>
-                        <p>Sunset: ${sunriseSunset[1].value}</p>
-                    `;
-                })
-                .catch(error => {
-                    console.error('Error fetching weather data:', error);
-                });
-        }
-    
-        // Call the fetchWeatherData function to retrieve and display the weather information
-        fetchWeatherData();
-    </script>
 </body>
 </html>
