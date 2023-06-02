@@ -1,74 +1,31 @@
 /* Global Styles */
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Typography */
 
 h1 {
-  font-size: 24px;
-  font-weight: bold;
+    font-size: larger;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
+h2 {
+    font-size: large;
 }
 
 a {
-  color: #0066cc;
-  text-decoration: none;
+    font-size: medium;
 }
 
-/* Colors */
+/* Layouts */
 
-.primary-color {
-  color: #ff0000;
-}
-
-.background-color {
-  background-color: #f0f0f0;
-}
-
-/* Layout */
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Buttons */
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #0066cc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #0052a3;
-}
-
-/* Responsive Design */
-
-@media screen and (max-width: 768px) {
-  .container {
+.container-1 {
+    border: 10px solid black;
     padding: 10px;
-  }
+}
 
-  h1 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 14px;
-  }
+.container-2 {
+    border: 5px dashed black;
+    padding: 10px;
 }
