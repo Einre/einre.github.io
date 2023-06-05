@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>(TEST) Ein Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="titlebox">
+            <h1>Ein's Home</h1>
+            <h2>Test of titlebox Heading 2</h2>
+            <p>Test of titlebox Paragraph<br>Attempting to cause a line break just to test the width of the title box. If this clips we need to find a way to stop it.</p>
+        </div>
+        <div id="weatherbox">
+            <label for="locationSelect">Select location:</label>
+            <select id="locationSelect">
+                <option value="GYX/82,74">Topsham, Maine</option>
+                <option value="TOP/95,93">Lawrence, Kansas</option>
+                <option value="RAH/74,59">Raleigh, North Carolina</option>
+            </select>
+
+            <button id="refreshButton">Get Weather!</button>
+
+            <h1>Current Weather</h1>
+            <p id="currentWeather"></p>
+            <h1>Detailed Forecast</h1>
+            <p id="detailedForecast"></p>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+</html>
