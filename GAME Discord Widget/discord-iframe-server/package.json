@@ -1,9 +1,0 @@
-{
-  "name": "discord-iframe-server",
-  "description": "Discord iframe Widget",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "express": ">=4.5"
-  }
-}
