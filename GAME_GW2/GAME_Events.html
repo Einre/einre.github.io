@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>[GAME] Events</title>
+<meta charset='utf-8' />
+<link href='GAMEFullCalendar/fullcalendar.css' rel='stylesheet' />
+<link href='GAMEFullCalendar/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+<link rel="icon"  type="image/png" href='GAME Media/the-sound-of-revenge.png' />
+<script src='GAMEFullCalendar/lib/moment.min.js'></script>
+<script src='GAMEFullCalendar/lib/jquery.min.js'></script>
+<script src='GAMEFullCalendar/fullcalendar.min.js'></script>
+<script src='GAMEFullCalendar/gcal.min.js'></script>
+<script> // Calendar Script
+	$(document).ready(function() { // Calendar Settings
+		$('#calendar').fullCalendar({
+			aspectRatio: 1.25,
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'agendaWeek,month,listWeek'
+			},
+			nowIndicator: 'true',
+			displayEventTime: true, // don't show the time column in list view
+			googleCalendarApiKey: 'AIzaSyDZsLApurI-Rrl3-ElgUMaobqT_DVoYKUs',
+			// GAME Events
+			events: 'hso61orbm6i887qo42imfvnt28@group.calendar.google.com',
+			timezone: 'local',
+			defaultView: 'agendaWeek',
+			height: 'auto',
+			minTime: '10:00:00',
+			maxTime: '24:00:00',
+			loading: function(bool) {
+				$('#loading').toggle(bool);
+			}
+		});
+	});
+</script>
+</head>
+<nav> <!-- Navigation Links -->
+	<ul class="nav-ul">
+		<li class="nav-li"><a href="GAME.html">Home</a></li>
+		<li class="nav-li"><a class="nav-active" href="GAME_Events.html">Events</a></li>
+		<li class="nav-li"><a href="GAME_Contact.html">Contact</a></li>
+		<li class="nav-li" style="float: right;"><a href="./HoT.html"><img src='GAME Media/the-sound-of-revenge.png' style="width: 10px;"></a></li>
+	</ul>
+</nav>
+</nav>
+<body>
+	<div id='loading'>loading...</div>
+	<div id='calendar'></div>
+	<div id="footer"> <!-- copyright footer -->
+        <div id="copyright">
+            <p> &copy; 2017 | All trademarks and copyrights used are owned by their respective owners. | Made by Einre &amp; Makk &amp; Fellow Members of [GAME]</p>
+        </div>
+    </div>
+</body>
+</html>
