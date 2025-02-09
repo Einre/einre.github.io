@@ -4,6 +4,7 @@ body {
     text-align: center; /* Center all content in the body */
 }
 table {
+    border: 2px black;
     width: 50%;
     margin: 5px auto;
     border-collapse: collapse;
@@ -14,6 +15,7 @@ th {
     text-align: center;
 }
 td {
+    border: 1px solid black;
     text-align: right;
     padding: 2px;
 }
