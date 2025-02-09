@@ -5,7 +5,7 @@ body {
 }
 table {
     width: 50%;
-    margin: 1px;
+    margin: auto;
     border-collapse: collapse;
 }
 th {
