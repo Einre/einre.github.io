@@ -4,7 +4,7 @@ body {
     text-align: center; /* Center all content in the body */
 }
 table {
-    width: 50%;
+    width: max-content;
     margin: auto;
     border-collapse: collapse;
 }
