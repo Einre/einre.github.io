@@ -1,3 +1,2 @@
 # einre.github.io
-<h1>Einre Personal Page</h1>
-
+Einre's Window to the World
