@@ -8,11 +8,12 @@ table {
     margin: 5px auto;
     border-collapse: collapse;
 }
-th, td {
+th {
     border: 1px solid black;
-    padding: 5px;
+    padding: 1px;
     text-align: center;
 }
-th {
-    background-color: #f4f4f4;
+td {
+    text-align: right;
+    padding: 2px;
 }
