@@ -1,0 +1,9 @@
+/* Styles for 'Einre' */
+
+body {
+    text-align: center; /* Center all content in the body */
+}
+
+.under-construction {
+    margin-top: 10%; /* Move the element 5% from the top */
+}
