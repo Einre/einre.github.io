@@ -5,7 +5,7 @@ body {
 }
 table {
     width: 50%;
-    margin: auto;
+    margin: 1px;
     border-collapse: collapse;
 }
 th {
@@ -17,5 +17,5 @@ th {
 td {
     border: 1px solid black;
     text-align: right;
-    padding-right: 10%;
+    padding-right: 10px;
 }
