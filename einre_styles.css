@@ -4,13 +4,13 @@ body {
     text-align: center; /* Center all content in the body */
 }
 table {
-    width: 50;
-    margin: 2px auto;
+    width: 50%;
+    margin: 5px auto;
     border-collapse: collapse;
 }
 th, td {
     border: 1px solid black;
-    padding: 2px;
+    padding: 5px;
     text-align: center;
 }
 th {
