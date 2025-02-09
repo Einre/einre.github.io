@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>${sunrises[i].split("T")[1]}</td>
                     <td>${sunsets[i].split("T")[1]}</td>
                     <td>${precipitation[i]}%</td>
+                    <td>${rain_sum[i]}inch(es)</td>
+                    <td>${showers_sum[i]}inch(es)</td>
+                    <td>${snow_sum[i]}inch(es)</td>
                 </tr>
             `;
             tableBody.innerHTML += row;
