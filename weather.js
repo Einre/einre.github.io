@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const row = `
                 <tr>
                     <td>${dates[i]}</td>
-                    <td>${maxTemps[i]}°F</td>
                     <td>${minTemps[i]}°F</td>
+                    <td>${maxTemps[i]}°F</td>
                     <td>${sunrises[i].split("T")[1]}</td>
                     <td>${sunsets[i].split("T")[1]}</td>
                     <td>${precipitation[i]}%</td>
